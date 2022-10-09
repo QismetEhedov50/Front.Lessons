@@ -1,0 +1,46 @@
+img{
+    width: 700px;
+}
+h4{
+    color:#FF680A ;
+    text-align: center;
+}
+h1.capitalize{
+    text-align: center;
+    text-transform: capitalize;
+}
+button.color{
+    color: #000000;
+    border-color: #FDF5E6;
+    background-color:#FDF5E6;
+}
+button.pain{
+    color: #000000;
+    border-color: #FDF5E6;
+    background-color:#FDF5E6;
+}
+button.front{
+    color: #000000;
+    border-color: #FDF5E6 ;
+    background-color:#FDF5E6;
+}
+p{
+    text-align: center;
+}
+button.fine{
+    color: #000000;
+    border-color: #F07427;
+    background-color:#FDF5E6;
+}
+button.one{
+border-color: #FDF5E6;
+}
+button.two{
+border-color: #FDF5E6;
+}
+button.three{
+border-color: #FDF5E6;
+}
+button.four{
+border-color: #FDF5E6;
+}
