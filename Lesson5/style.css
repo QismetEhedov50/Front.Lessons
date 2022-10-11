@@ -1,0 +1,93 @@
+h1{
+    color:#23297A;
+    font-size:50px;
+}
+p{
+    text-align: center;
+    font-size:18px;
+}
+div.one{
+    display: inline-block;
+height: 300px;
+width: 30%;
+border: 1px solid gray;
+border-radius:5px;
+padding: 5px 5px;
+margin-left: 22px;
+}
+div.two{
+    display: inline-block;
+height: 300px;
+width: 30%;
+border: 1px solid gray;
+border-radius:5px;
+margin:0px 20px;
+padding: 5px 5px;
+}
+div.three{
+    display: inline-block;
+height: 300px;
+width: 30%;
+border: 1px solid gray;
+border-radius:5px;
+padding: 5px 5px;
+
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+div.pic{
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+div.pic2{
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+div.pic3{
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+div.text{
+    display: inline-block;
+}
+div.note{
+    display: inline-block;
+}
+div.fine{
+    display: inline-block;
+}
+h3{
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+}
+span{
+    color: gray;
+}
+p.as{
+    margin-right: 80px;
+    font-size: 18px;
+    color: gray;
+    margin-bottom:40px
+}
+p.hi{
+    margin-right: 80px;
+    font-size: 18px;
+    color: gray;
+    margin-bottom:40px
+}
+p.fr{
+    margin-right: 80px;
+    font-size: 18px;
+    color: gray;
+    margin-bottom:40px
+}
