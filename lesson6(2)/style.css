@@ -1,0 +1,39 @@
+body{
+    background-color: #4C2F27;
+}
+.hamburger{
+display: block;
+}
+.big{
+    display: inline-block;
+    box-shadow: 3px 3px 15px;
+    width: 30%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: #FDF5E6;
+    text-align: center;
+    margin-top: 12rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin-left: 2rem;
+}
+.big img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.big h1{
+    color: #1224E7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-shadow: 2px 2px 30px  #FFFF31;
+}
+.big p{
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.big span{
+    color:#E74E14 ;
+    font-family:cursive;
+}
