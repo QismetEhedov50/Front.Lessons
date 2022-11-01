@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background-image: url(image.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header .parent{
+    display: flex;
+background-color: white;
+}
+header .parent .logo{
+    width: 20%;
+    padding: 2rem;
+}
+header .parent .menu{
+    width: 60%;
+    padding: 2rem;
+}
+header .parent .mobile{
+    width: 20%;
+    padding: 2rem;
+    background-color: #ffb606;
+}
+header nav{
+    padding-top: 3rem;
+}
+header .parent .logo img{
+    vertical-align: middle;
+}
+header .parent .menu ul{
+display: flex;
+justify-content: space-around;
+height: 100%;
+align-items: center;
+}
+header .parent .menu ul li{
+list-style: none;
+}
+header .parent .menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight:bold;
+}
+header .parent .menu ul li a:hover{
+    color: #ffb606;
+}
+header .parent .mobile p{
+    height: 100%;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+}
+header .parent .mobile p:hover{
+    color: black;
+}
+header .textBox h1{
+color: white;
+font-size: 4.5rem;
+font-family: monospace;
+padding-top:9rem ;
+text-align: center;
+}
+header .textBox h1 span{
+background-color: #ffb606;
+}
+header .services{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.5rem;
+}
+header .services .box{
+    width: 30%;
+    display: flex;
+    background-color: #1a1a1a;
+    padding: 3rem;
+}
+header .services .box:hover{
+    background-color: #059600;
+}
+header .services .box:hover .icon{
+color: rgb(255, 7, 160);
+}
+header .services .icon{
+    width: 30%;
+    text-align: center;
+    color: #ffb606;
+    font-size: 3rem;
+}
+header .services .text{
+    width: 60%;
+}
+header .services .text h3{
+color: blue;
+margin-bottom: 0.5rem;
+font-size: 23px ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-shadow: 4px 4px 10px rgb(18, 18, 37);
+}
+header .services .text a{
+color: rgb(255, 0, 0);
+text-decoration: none;
+font-size: 13px;
+font-family: cursive;
+text-shadow: 4px 4px 10px #3a1414;
+}
+body{
+    height: 5000px;
+}
+section .head h1{
+    font-size: 40px;
+margin-bottom: 5rem;
+}
+section .head span {
+border: 2px solid #ffb606;
+display: block;
+width: 60px;
+margin-top: 8rem;
+margin-bottom: 1rem;
+}
+section .parent{
+    display: flex;
+    justify-content:space-around;
+}
+section .parent .big .foto img{
+width: 100%;
+}
+section .parent .big{
+    width: 30%;
+    background-color: #F8F9FB;
+}
+section .parent .big .tex{
+    margin-top: 2rem;
+    text-align: center;
+} 
+section .parent .big .tex a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font: optional;
+}
+section .parent .big .tex p{
+    color: gray;
+    margin-bottom: 3rem;
+
+}
+section .parent .big .profil .parent{
+    display: flex;
+    background-color:#EAEBEC ;
+    margin-top: 1rem;
+}
+section .parent .big .profil .fayl{
+    width: 20%;
+    padding: 1rem;
+}
+section .parent .big .profil .name{
+    width: 60%;
+padding: 2rem;
+}
+section .parent .big .profil .money{
+    width: 20%;
+    background-color: #ffb606;
+    text-align: center;
+    padding-top: 2rem;
+}
+section .parent .big .profil .fayl img{
+    border-radius:50%;
+}
