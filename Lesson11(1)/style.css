@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header .parent{
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    background-color:#00faff;
+    padding: 1rem;
+}
+header .parent .logo{
+    width: 10%;
+}
+header .parent .list{
+width: 80%;
+}
+header .parent .search{
+    width: 10%;
+}
+li{
+ list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header .parent .logo a{ 
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #0000FF;
+    text-shadow: 5px 5px 5px black;
+}
+header .parent .logo a:hover{
+    color: rgb(0, 255, 76);
+}
+header .parent .list .listBig{
+display: flex;
+justify-content: center;
+height: 100%;
+align-items: center;
+}
+header .parent .list .listBig li a{
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 1px;
+    color: red;
+}
+header .parent .list .listBig li a:hover{
+    color: yellow;
+}
+header .parent .search ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+header .parent .search ul a{
+color: green;
+}
+header .parent .search ul a:hover{
+    color: yellow;
+}
+header .parent .search ul li a{
+    position: relative;
+}
+header .parent .search ul li a i{
+    font-size: 1.1rem;
+}
+header .parent .search  ul li a span{
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.3rem;
+    top: -10px;
+    right: -16px;
+    border-radius: 50%;
+}
+section .img{
+    background-image: url(pic.webp);
+    height: 93vh;
+    background-position: top;
+    background-size: cover;
+}
+.lineBlack{
+border-bottom: 2px solid black ;
+}
+header .list .listBig .liList .dropdown{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    right: -21px;
+    display: none;
+}
+header .list .listBig .liList:hover .dropdown{
+    display: block;
+}
+header .list .listBig .liList{
+    position: relative;
+}
+header .list .listBig .liList .dropdown a{
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    text-transform: capitalize;
+}
+header .list .listBig .liList .dropdown a:hover{
+    color: blue;
+}
+header .listBig .dropdown li{
+    padding: 0.4rem 0;
+}
+header .list .listBig .liList .dropdown .children{
+   position: relative;
+}
+header .list .listBig .liList .dropdown .children .dropdown{
+position: absolute;
+right: -110px;
+top: -2px;
+display: none;
+}
+header .list .listBig .liList .dropdown .children:hover .dropdown{
+   display: block;
+} 
+header .list .dropdown li:hover{
+    background-color: chocolate;
+}
