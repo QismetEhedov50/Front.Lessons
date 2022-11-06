@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containerFirst{
+    width: 80%;
+    margin: auto
+}
+header  nav{
+   background-color: rgb(255, 187, 0);
+   padding:1rem ;
+}
+header .parent{
+    display: flex;
+    justify-content: space-between;
+}
+header .parent .name{
+    width: 35%;
+}
+header .parent .list{
+    width: 50%;
+
+}
+header .parent .name .lineRed{
+    border-bottom: 2px solid red;
+    font-family: 'Mulish', sans-serif;
+    width: max-content;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header .parent .list ul{
+    display: flex;
+justify-content: space-around;
+height: 100%;
+align-items: center;
+}
+header .parent .list ul li a{
+    color: gray;
+    font-family: 'Mulish', sans-serif;
+}
+header .parent .list .lineRed{
+    border-bottom: 2px solid red;
+    font-family: 'Mulish', sans-serif;
+}
+.containerTwo{
+    width: 85%;
+    margin: auto;
+}
+section .parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+section .parent .img1{
+    width: 20%;
+}
+section .parent .img2{
+    width: 20%;
+}
+section .parent .img3{
+    width: 20%;
+}
+section .parent .img1{
+    width: 20%;
+}
+section .parent .text{
+    text-align: center;
+    padding-top: 22px;
+}
+section .parent .text h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111;
+    margin: 0;
+}
+section .parent .rating{
+    line-height: 18px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    color: #e3c01c;
+    margin-right: -4px;
+}
+section .containerTwo .parent .img1{
+    position: relative;
+}
+section .containerTwo .parent .img1 span{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    padding: 2px 8px;
+    left: 10px;
+    top: 10px;
+    background-color: #36a300;
+    letter-spacing: 1px;
+    font-family:'Mulish', sans-serif ;
+}
+section .containerTwo .parent .img3{
+    position: relative;
+}
+section .containerTwo .parent .img3 span{
+    position: absolute;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 2px 8px;
+    left: 10px;
+    top: 10px;
+    background-color: #000000;
+    letter-spacing: 1px;
+    font-family:'Mulish', sans-serif ;
+}
+.containerThree{
+    width: 85%;
+    margin: auto;
+}
+.sectionTwo .parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.sectionTwo .parent .img5{
+    width: 20%;
+}
+.sectionTwo .parent .img6{
+    width: 20%;
+}
+.sectionTwo .parent .img7{
+    width: 20%;
+}
+.sectionTwo .parent .img8{
+    width: 20%;
+}
+.sectionTwo .parent .text{
+    text-align: center;
+    padding-top: 22px;
+}
+.sectionTwo .parent .text h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111;
+    margin: 0;
+}
+.sectionTwo .parent .rating{
+    line-height: 18px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    color: #e3c01c;
+    margin-right: -4px;
+}
+.sectionTwo .containerThree .parent .img6{
+    position: relative;
+}
+.sectionTwo .containerThree .parent .img6 .note{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    padding: 2px 8px;
+    left: 10px;
+    top: 10px;
+    background-color: #ff0000;
+    letter-spacing: 1px;
+    font-family:'Mulish', sans-serif ;
+}
+.sectionTwo .containerThree .parent .img8{
+    position: relative;
+}
+.sectionTwo .containerThree .parent .img8 .note{
+    position: absolute;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 2px 8px;
+    left: 10px;
+    top: 10px;
+    background-color: #ff0000;
+    letter-spacing: 1px;
+    font-family:'Mulish', sans-serif ;
+}
+.img6 .price .many{
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.img8 .price .many{
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
