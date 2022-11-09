@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containerOne{
+    width: 80%;
+    margin: auto;
+}
+header .parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+header .parent .title1{
+    width: 30%;
+}
+header .parent .title1 h4{
+    color: blue;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+header .parent .title1 h4:hover{
+    color: #e3c01c;
+}
+header .parent .title1 h4::after{
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 70px;
+    background: #ca1515;
+    content: "";
+}
+.containerTwo{
+    width: 80%;
+    margin: auto;
+}
+section .parent{
+    display: flex;
+    justify-content: space-between;
+}
+section .parent .big{
+    width: 30%;
+}
+section .parent .big .box{
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+section .parent .big .box .pic{
+    float: left;
+    margin-right: 25px;
+}
+section .parent .big .box .text h6{
+    font-size: 14px;
+    color: green;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+}
+section .parent .big .box .text .rating{
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+section .parent .big .box .text .rating i{
+    font-size: 10px;
+    color: #e3c01c;
+    margin-right: -4px;
+}
+section .parent .big .box .text .price{
+    color: #111111;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+section .parent .big .box .text .red{
+    color: red;
+}
+section .parent .big .box .text .free{
+    color: #E0BCC1;
+}
