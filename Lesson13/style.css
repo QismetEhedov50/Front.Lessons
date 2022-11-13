@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DEDEDE;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header .text {
+    margin-left: 4rem;
+}
+
+header .text h1 {
+    color: blue;
+    text-shadow: 5px 5px 8px rgb(126, 113, 113);
+}
+
+header .text img {
+    vertical-align: middle;
+}
+
+header .text h1 {
+    font-size: 45px;
+}
+
+section .form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 0 0 #6f7274;
+    padding: 26px 20px 45px;
+    color: #224285;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-top: 5rem;
+    margin-bottom: 30px;
+}
+
+section .form h3 {
+    font-size: 20px;
+}
+
+section .form p .red {
+    color: red;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section .form .formBig {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+.formBig .name label .red {
+    color: red;
+}
+
+.formBig .surname label .red {
+    color: red;
+}
+
+.formBig .dad label .red {
+    color: red;
+}
+
+.formBig .name input {
+    height: 46px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    color: #224285;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 250px;
+}
+
+.formBig .surname input {
+    height: 46px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    color: #224285;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 250px;
+}
+
+.formBig .dad input {
+    height: 46px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    color: #224285;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 250px;
+}
+
+section .form .formTwo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+section .form .formTwo .country{
+    display: block;
+}
+.formTwo .country .region .red {
+    color: red;
+}
+.formTwo .country .region{
+    display:inline-block;
+}
+.formTwo .country .front{
+    display: inline-block;
+}
+.formTwo .country .home {
+    height: 46px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    color: #224285;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 390px;
+}
+.formTwo .country .fon{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.formTwo .regionTwo{
+    display: none;
+}
+.formTwo .regionTwo .required{
+    display: block;
+    margin-bottom: 5px;
+}
+.formTwo .regionTwo .disabled{
+    display: none;
+    width: 100%;
+    height: 46px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color: #224285;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    appearance: none;
+    padding-left: 10px;
+}
+.formTwo .city label .red {
+    color: red;
+}
+.formTwo .regionTwo .required .red{
+    color: red;
+}
+.formTwo .city input {
+    height: 46px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    color: #224285;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 390px;
+}
+
+section .form .formThree {
+    padding-bottom: 25px;
+}
+
+.formThree .poct label .red {
+    color: red;
+}
+
+.formThree .poct input {
+    height: 46px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    color: #224285;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 820px;
+}
+
+section .form .formFour {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.formFour .phone label .red {
+    color: red;
+}
+
+.formFour .phone input {
+    height: 46px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    color: #224285;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 390px;
+}
+
+.formFour .mail label .red {
+    color: red;
+}
+
+.formFour .mail input {
+    height: 46px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    color: #224285;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 390px;
+}
+
+section .form .formFive {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.formFive .age label .red {
+    color: red;
+}
+
+.formFive .gender label .red {
+    color: red;
+}
+
+.formFive .social label .red {
+    color: red;
+}
+
+.formFive .age input {
+    height: 46px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    color: #224285;
+    font-size: 18px;
+    padding-left: 5px;
+    width: 100px;
+}
+
+section .form .formFive .gender {
+    display: block;
+    margin-bottom: 5px;
+}
+
+section .form .formFive .gender .gendertwo {
+    display: flex;
+    align-items: center;
+    height: 46px;
+}
+
+section .form .formFive .gender .gendertwo input {
+    width: 28px;
+    height: 28px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+}
+
+section .form .formFive .gender .gendertwo label {
+    margin: 0;
+    font-weight: normal;
+    padding-left: 3px;
+    margin-right: 25px;
+}
+section .form .formFive .social select {
+    height: 46px;
+    width: 500px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color: #224285;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    padding-left: 10px;
+    appearance: none;
+}
+section .form .formSix{
+    display: block;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+.formSix label .red {
+    color: red;
+}
+section .form .formSix .type{
+    display: flex;
+    align-items: center;
+    height: 46px;
+}
+section .form .formSix .type input {
+    width: 28px;
+    height: 28px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+}
+section .form .formSix .type label {
+    margin: 0;
+    font-weight: normal;
+    padding-left: 3px;
+    margin-right: 25px;
+}
+section .form .formSeven{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+.formSeven label{
+    display: block;
+    margin-bottom: 5px;
+}
+.formSeven label .red {
+    color: red;
+}
+section .form .formEight{
+    display: block;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+section .form .formEight label{
+    display: block;
+    margin-bottom: 5px;
+}
+section .form .formEight select {
+    height: 46px;
+    width: 650px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color: #224285;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    padding-left: 10px;
+    appearance: none;
+}
+section .form .formNine{
+    display: block;
+    margin-bottom: 55px;
+}
+section .form .formNine  .front{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: inline;
+
+}
+section .form .formNine  .fake{
+    font-size: 19px;
+}
+section .form .formNine  .fake dfn{
+    font-style: normal;
+}
+section .form .formNine textarea{
+    width: 100%;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    resize: none;
+    font-size: 18px;
+    color: #224285;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+section .form .formTen{
+    display: flex;
+    justify-content: space-between;
+}
+section .form .formTen .submit{
+    margin: 0 auto;
+}
+section .form .formTen .submit input{
+    box-shadow: 10px 10px 0 0 rgb(0 0 0 / 50%);
+    transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+    background-color: #0051ff;
+    border: none;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 14px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
