@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  background-color: white;
+}
+
+header {
+  background-color: #F8F9FA;
+}
+header .center {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+header .center h2 {
+  font-size: 50px;
+  position: relative;
+  padding-top: 30px;
+  z-index: 2;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  color: aqua;
+}
+header .center h2::before {
+  width: 80px;
+  height: 2px;
+  background: #ff7404;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.One {
+  background-color: #F8F9FA;
+}
+.One .row {
+  background-color: white;
+}
+.One .row .text {
+  padding: 24px;
+  width: 50%;
+}
+.One .row .text h3 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+}
+.One .row .text p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #868e96;
+  margin-bottom: 1rem;
+}
+.One .row .text .price {
+  color: #ff7404;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-family: "Inter", sans-serif;
+  font-size: 1.75rem;
+}
+.One .row .image {
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  height: 255px;
+}
+
+.Two {
+  background-color: #F8F9FA;
+}
+.Two .center {
+  text-align: center;
+  margin: 3rem 0;
+}
+.Two .center h2 {
+  font-size: 50px;
+  position: relative;
+  padding-top: 30px;
+  z-index: 2;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  color: yellow;
+}
+.Two .center h2::before {
+  width: 80px;
+  height: 2px;
+  background: #ff7404;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.Two .black {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.Two .black .block {
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+.Two .black .block .image img {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Two .black .block .text {
+  padding: 30px;
+}
+.Two .black .block .text h3 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.Two .black .block .text h3 a {
+  text-decoration: none;
+  color: #ff7404;
+}
+.Two .black .block .text .time {
+  font-size: 13px;
+  color: #999999;
+  margin-bottom: 1rem;
+}
+.Two .black .block .text p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #868e96;
+  margin-bottom: 2rem;
+}
+.Two .black .block .text .button a {
+  color: #fff;
+  border-width: 2px;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #ff7404;
+  border-color: #ff7404;
+  padding: 1rem 30px;
+}/*# sourceMappingURL=style.css.map */

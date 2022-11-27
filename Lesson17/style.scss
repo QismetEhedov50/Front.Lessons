@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background-color: white;
+}
+header{
+    background-color:#F8F9FA;
+    .center{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        h2{
+            font-size: 50px;
+            position: relative;
+            padding-top: 30px;
+            z-index: 2;
+            text-transform: uppercase;
+            font-family: 'Inter', sans-serif;
+            color: aqua;
+        }
+        h2::before{
+            width: 80px;
+            height: 2px;
+            background: #ff7404;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+.One{
+    background-color:#F8F9FA;
+    .row{
+        background-color: white;
+        .text{
+            padding: 24px;
+            width: 50%;
+            h3{
+                font-size: 20px;
+                color: black;
+                margin-bottom: 0.5rem;
+                font-family: 'Poppins', sans-serif;
+                line-height: 1.2;
+            }
+            p{
+                font-family: "Open Sans", Arial, sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 1.8;
+                color: #868e96;
+                margin-bottom: 1rem;
+            }
+            .price{
+                color: #ff7404;
+                margin-bottom: 0.5rem;
+                line-height: 1.2;
+                font-family: 'Inter', sans-serif;
+                font-size: 1.75rem;
+    
+            }
+        }
+        .image{
+            background-size: cover;
+            background-position: center center;
+            width: 50%;
+            height: 255px;
+        }
+    }
+}
+.Two{
+    background-color:#F8F9FA;
+    .center{
+        text-align: center;
+        margin: 3rem 0;
+        h2{
+            font-size: 50px;
+            position: relative;
+            padding-top: 30px;
+            z-index: 2;
+            text-transform: uppercase;
+            font-family: 'Inter', sans-serif;
+            color: yellow;
+        }
+        h2::before{
+            width: 80px;
+            height: 2px;
+            background: #ff7404;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .black{
+        padding-right: 15px;
+        padding-left: 15px;
+        .block{
+            margin-bottom: 30px;
+            background-color: #fff;
+            .image{
+                img{
+                    height: 300px;
+                    width: 100%;
+                    background-size: cover;
+                    background-position: center center;
+                    object-fit: cover;
+                }
+            }
+            .text{
+                padding: 30px;
+                h3{
+                    font-size: 20px;
+                    margin-bottom: 0.5rem;
+                    font-weight: 300;
+                    line-height: 1.2;
+                    a{
+                        text-decoration: none;
+                        color: #ff7404;
+                    }
+                }
+                .time{
+                    font-size: 13px;
+                    color: #999999;
+                    margin-bottom: 1rem;
+
+                }
+                p{
+                    font-family: "Open Sans", Arial, sans-serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 1.8;
+                    color: #868e96;
+                    margin-bottom: 2rem;
+                }
+                .button{
+                    a{
+                        color: #fff;
+                        border-width: 2px;
+                        text-decoration: none;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        background-color: #ff7404;
+                        border-color: #ff7404;
+                        padding: 1rem 30px;
+                    }
+                }
+            }
+        }
+    }
+}
