@@ -1,0 +1,291 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@500&display=swap');
+body{
+    height: 1000px;
+}
+header{
+    position: fixed;
+    margin-top: 15px;
+    min-height: 190px;
+    top: 0;
+    left: 0;
+    right: 0;
+    nav{
+        background-color: #222222;
+        position: relative;
+        height: 60px;
+        .row{
+            position: relative;
+            .left{
+                left: 0;
+                text-align: right;
+                position: relative;
+                top: 0;
+                .flex{
+                    text-align: right;
+                    margin: 0;
+                    padding: 0;
+                    display: inline-block;
+                    min-height: 30px;
+                    position: relative;
+                    .item{
+                        position: relative;
+                        display: inline-block;
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        .block{
+                            font-family: 'Rubik', sans-serif;
+                            color: #ffffff;
+                            font-size: 13px;
+                            font-style: normal;
+                            text-transform: uppercase;
+                            display: block;
+                            height: 60px;
+                            line-height: 60px;
+                            padding: 0 10px;
+                            text-decoration: none;
+                            white-space: nowrap;
+                        }
+                        .block:hover{
+                            color: #FFCA3C;
+                        }
+                        .block::after{
+                            display: inline-block;
+                            content: "\f107";
+                            font-family: 'font awesome 5 free';
+                            font-weight: 900;
+                            height: 8px;
+                            line-height: 8px;
+                            vertical-align: middle;
+                            margin-left: 3px;
+                        }
+                        .menu{
+                            position: absolute;
+                            display: none;
+                            top: 55px;
+                            left: 0;
+                            padding: 0;
+                            margin: 0;
+                            float: left;
+                            transition: all .5s ease 0s;
+                            background-color: #fff;
+                            box-shadow: 0 0 40px rgb(0 0 0 / 20%);
+                            border-radius: 3px;
+                            .note{
+                                display: inline-block;
+                                list-style: none;
+                                clear: both;
+                                height: auto;
+                                position: relative;
+                                margin: 0;
+                                padding: 0;
+                                a{
+                                    display: block;
+                                    width: 210px;
+                                    height: auto;
+                                    padding: 12px;
+                                    float: left;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    background: 0 0;
+                                    text-align: left;
+                                    text-transform: none;
+                                    line-height: 24px;
+                                    border: none;
+                                    margin: 0;
+                                    color: #666;
+                                    white-space: inherit;
+                                    border-bottom: 1px solid #f1f1f1;
+                                    font-style: normal;
+                                    text-decoration: none;
+                                }
+                                a:hover{
+                                    color: white;
+                                }
+                            }
+                        }
+
+                    }
+                    .item:hover .menu{
+                        display: block;
+                    }
+                    .note:hover{
+                        background-color: #222222;
+                    }
+                }
+            }
+            .logo{
+                top: 0px;
+                position: absolute;
+                background-color: #ffca3c;
+                min-height: 90px;
+                width: 200px;
+                left: 50%;
+                margin-left: -100px;
+                padding: 15px 15px 0;
+                a{
+                    margin: 0 auto;
+                    display: block;
+                    text-decoration: none;
+                    text-align: center;
+                    img{
+                        transition: all .3s ease-in-out 0s;
+                        position: relative;
+                        z-index: 1;
+                        margin: 0 auto;
+                        width: auto;
+                        max-width: 100%;
+                        max-height: 110px;
+                        height: auto;
+                    }
+                }  
+            }  
+            .logo::before{
+                border-color: #ffca3c transparent transparent #ffca3c;
+                content: ' ';
+                position: absolute;
+                width: 0;
+                height: 0;
+                right: 0;
+                bottom: -40px;
+                border-width: 20px 50px;
+                border-style: solid;
+            }
+            .logo::after{
+                border-color: #ffca3c #ffca3c transparent transparent;
+                content: ' ';
+                position: absolute;
+                width: 0;
+                height: 0;
+                left: 0;
+                bottom: -40px;
+                border-width: 20px 50px;
+                border-style: solid;
+            }
+            .right{
+                right: 0;
+                text-align: left;
+                position: relative;
+                top: 0;
+                .flex{
+                    text-align: left;
+                    margin: 0;
+                    padding: 0;
+                    display: inline-block;
+                    min-height: 30px;
+                    position: relative;
+                    .item{
+                        position: relative;
+                        display: inline-block;
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        .block{
+                            font-family: 'Rubik', sans-serif;
+                            color: #ffffff;
+                            font-size: 13px;
+                            font-style: normal;
+                            text-transform: uppercase;
+                            display: block;
+                            height: 60px;
+                            line-height: 60px;
+                            padding: 0 10px;
+                            text-decoration: none;
+                            white-space: nowrap;
+                        }
+                        .block:hover{
+                            color: #FFCA3C;
+                        }
+                        .block2{
+                            font-family: 'Rubik', sans-serif;
+                            color: #ffffff;
+                            font-size: 13px;
+                            font-style: normal;
+                            text-transform: uppercase;
+                            display: block;
+                            height: 60px;
+                            line-height: 60px;
+                            padding: 0 10px;
+                            text-decoration: none;
+                            white-space: nowrap;
+                        }
+                        .block2:hover{
+                            color: #FFCA3C;
+                        }
+                        .block::after{
+                            display: inline-block;
+                            content: "\f107";
+                            font-family: 'font awesome 5 free';
+                            font-weight: 900;
+                            height: 8px;
+                            line-height: 8px;
+                            vertical-align: middle;
+                            margin-left: 3px;
+                        }
+                        .menu{
+                            position: absolute;
+                            display: none;
+                            top: 55px;
+                            left: 0;
+                            padding: 0;
+                            margin: 0;
+                            float: left;
+                            transition: all .5s ease 0s;
+                            background-color: #fff;
+                            box-shadow: 0 0 40px rgb(0 0 0 / 20%);
+                            border-radius: 3px;
+                            .note{
+                                display: inline-block;
+                                list-style: none;
+                                clear: both;
+                                height: auto;
+                                position: relative;
+                                margin: 0;
+                                padding: 0;
+                                a{
+                                    display: block;
+                                    width: 210px;
+                                    height: auto;
+                                    padding: 12px;
+                                    float: left;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    background: 0 0;
+                                    text-align: left;
+                                    text-transform: none;
+                                    line-height: 24px;
+                                    border: none;
+                                    margin: 0;
+                                    color: #666;
+                                    white-space: inherit;
+                                    border-bottom: 1px solid #f1f1f1;
+                                    font-style: normal;
+                                    text-decoration: none;
+                                }
+                                a:hover{
+                                    color: white;
+                                }
+                            }
+                        }
+
+                    }
+                    .item:hover .menu{
+                        display: block;
+                    }
+                    .note:hover{
+                        background-color: #222222;
+                    }
+                }
+            }
+        }   
+    }
+} 
+@media screen and (max-width: 600px) {
+    .left .block{
+        color: #222222;
+    }
+    .right{
+        color: #222222;
+    }
+}
