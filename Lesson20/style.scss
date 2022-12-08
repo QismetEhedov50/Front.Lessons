@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@700&family=Poppins&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@700&family=Poppins&family=Rubik:wght@700&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+header {
+    background-color: #EF4246;
+    margin-bottom: 5rem;
+    .white {
+        h3 {
+            font-size: 58px;
+            color: #ffffff;
+            line-height: 1;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 7px;
+        }
+
+        h2 {
+            font-size: 70px;
+            color: #ffffff;
+            line-height: 1;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            margin-bottom: 10px;
+        }
+
+        h6 {
+            color: #ffffff;
+            text-align: center;
+            line-height: 1.56;
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 20px;
+            margin-bottom: 4rem;
+        }
+
+        .center {
+            text-align: center;
+            height: 47px;
+
+            a {
+                background-color: #f2002d;
+                color: #ffffff;
+                text-decoration: none;
+                font-size: 14px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                padding-left: 20px;
+                padding-right: 20px;
+                box-shadow: 0 0 30px rgba(0, 0, 0, .12) !important;
+                border-radius: 20px;
+                margin: 0 auto;
+                font-family: 'Rubik', sans-serif;
+            }
+
+            a:hover {
+                background-color: black;
+            }
+        }
+    }
+
+    .black {
+        .pic {
+            text-align: center;
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+.One{
+    .text{
+        text-align: center;
+        margin-bottom: 90px;
+        h2{
+            color: #0074ff;;
+            font-size: 44px;
+            font-weight: 700;
+            font-style: normal;
+            margin-bottom: 10px;
+        }
+        h6{
+            color: #999999;
+            font-size: 21px;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+    .front{
+        padding: 15px;
+        .image{
+            display: block;
+            overflow: hidden;
+            position: relative;
+            z-index: 2;
+            border-radius: 6px;
+            text-align: center;
+            a{
+                display: block;
+                position: relative;
+                border: 1px solid #f1f1f1;
+                border-radius: 6px;
+                overflow: hidden;
+                z-index: 1;
+                text-decoration: none;
+                max-width: 100%;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+            .sayt{
+                position: absolute;
+                bottom: 15px;
+                right: 15px;
+                z-index: 100;
+                float: none !important;
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+                font-weight: 400;
+                .button{
+                    text-align: center;
+                    a{
+                        display: inline-block;
+                        width: 40px;
+                        height: 40px;
+                        padding: 0;
+                        font-size: 21px;
+                        vertical-align: middle;
+                        line-height: 40px!important;
+                        color: #333;
+                        border-radius: 50%!important;
+                        background: #fff!important;
+                        overflow: hidden;
+                        z-index: 200;
+                        text-decoration: none;
+                        position: relative;
+                    }
+                    a::before{
+                        content: "\f004";
+                        font-family: "font awesome 5 free";
+                        font-weight: 900;
+                    }
+                }
+            }
+            .price{
+                clear: both;
+                font-size: 16px;
+                font-weight: bold;
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                padding: 9px 8px;
+                border-radius: 4px;
+                z-index: 5;
+                color: #ffffff;
+                background-color: #4d2c21;
+                .hold{
+                    .gold{
+                        font-size: 80%;
+                        position: relative;
+                    }
+                    sup{
+                        bottom: .5ex;
+                        font-size: 75%;
+                    }
+                }
+            }
+            .raiting{
+                position: absolute;
+                top: 25px;
+                z-index: 100;
+                right: 20px;
+                width: 79px;
+                height: 15px;
+                background: 0 0!important;
+                span{
+                    width: 100%;
+                }
+                span::before{
+                    content: "\f005 \f005 \f005 \f005 \f005";
+                    font-family: 'font awesome 5 free';
+                    font-weight: 900;
+                    color: #fab60a;
+                    font-size: 14px;
+                    display: block;
+                    text-indent: 0!important;
+                    overflow: hidden;
+                    width: calc(100% - 1px);
+                }
+            }
+        }
+        .list{
+            padding: 25px 20px 15px;
+            text-align: center;
+            .link{
+                text-decoration: none;
+                span{
+                    display: block;
+                    font-size: 17px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    margin-bottom: 5px!important;
+                    text-transform: capitalize;
+                    padding: 0;
+                    overflow: hidden;
+                    color: #333;
+                    font-family: 'Rubik', sans-serif;
+                }
+            }
+            .detal{
+                margin: 0;
+                font-size: 16px;
+                color: #888;
+                padding: 0;
+                width: 100%;
+            }
+        }
+        .drop{
+            padding: 0 20px;
+            margin-bottom: 5px;
+            text-align: center;
+            a{
+                text-decoration: none;
+                margin: 0 2px;
+                width: auto;
+                height: 30px;
+                border-radius: 15px;
+                vertical-align: middle;
+                text-align: center;
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: 500;
+                display: inline-block;
+                padding: 0 15px;
+                font-weight: bold;
+                background-color: #fff;
+                color: #333;
+                border: 2px solid #e8e8e8;
+                line-height: 28px;
+            }
+            a:hover{
+                color: red;
+                border-color: black;
+            }
+        }
+    }
+}
