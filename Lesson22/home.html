@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav style="padding: 1rem 0 3rem;">
+                <div class="row">
+                    <div class="col-md-2 logo">
+                        <a href="https://corella.az/">
+                            <img src="./logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-md-8 list">
+                        <ul>
+                            <li>
+                                <a href="https://corella.az/">Ana Səhifə</a>
+                            </li>
+                            <li>
+                                <a href="https://corella.az/about.html">Haqqımızda</a>
+                            </li>
+                            <li class="menu">
+                                <a href="https://corella.az/mehsullar.html">Məhsullar
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="https://corella.az/emulsiyalar.html"> Emulsiyalar</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://corella.az/sintetik-boyalar.html"> Sintetik Boyalar</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://corella.az/senaye-boyalari.html">Sənaye Boyaları</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://corella.az/laklar-ve-dolgular.html">Laklar və dolğular</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://corella.az/reng-paletleri.html">RAL kataloqu</a>
+                                    </li>
+                                    <div class="color">
+                                        <li>
+                                            <a href="https://corella.az/yapisqanlar.html">Yapışqanlar</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://corella.az/tinerler.html">Tinerlər</a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="https://corella.az/xeberler.html">Xəbərlər</a>
+                            </li>
+                            <li>
+                                <a href="https://corella.az/contact.html">Əlaqə</a>
+                            </li>
+                            <li>
+                                <a href="https://corella.az/reng-paletleri.html">Rəng kataloqu</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 language">
+                        <ul>
+                            <li>
+                                <a href="https://corella.az/index.php?action_skin_change=yes&skin_name=RU">RU</a>
+                            </li>
+                            <li>
+                                <a href="https://corella.az/index.php?action_skin_change=yes&skin_name=EN">EN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="mobile">
+                <div>
+                    <div class="logo">
+                        <a href="https://corella.az/">
+                            <img src="./logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <button class="open">
+                        <span>
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+                    <ul class="link">
+                        <button class="close">
+                            <span>
+                                <i class="fas fa-times"></i>
+                            </span>
+                        </button>
+                        <li class="cool">
+                            <a href="https://corella.az/">Ana səhifə</a>
+                        </li>
+                        <li class="cool">
+                            <a href="https://corella.az/about.html">Haqqımızda</a>
+                        </li>
+                        <li class="cool dropdown">
+                            <label for="dd2" class="hypertext">
+                                Məhsullar
+                                <span class="ml-2">
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </label>
+                            <input type="checkbox" hidden id="dd2">
+                            <ul class="dd">
+                                <li>
+                                    <a href="https://corella.az/emulsiyalar.html"> Emulsiyalar</a>
+                                </li>
+                                <li>
+                                    <a href="https://corella.az/sintetik-boyalar.html"> Sintetik Boyalar</a>
+                                </li>
+                                <li>
+                                    <a href="https://corella.az/senaye-boyalari.html">Sənaye Boyaları</a>
+                                </li>
+                                <li>
+                                    <a href="https://corella.az/laklar-ve-dolgular.html">Laklar və dolğular</a>
+                                </li>
+                                <li>
+                                    <a style="color: black !important"
+                                        href="https://corella.az/yapisqanlar.html">Yapışqanlar</a>
+                                </li>
+                                <li>
+                                    <a style="color: black !important"
+                                        href="https://corella.az/tinerler.html">Tinerlər</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="cool">
+                            <a href="https://corella.az/xeberler.html">Xəbərlər</a>
+                        </li>
+                        <li class="cool">
+                            <a href="https://corella.az/contact.html">Əlaqə</a>
+                        </li>
+                        <li class="cool">
+                            <a href="https://corella.az/reng-paletleri.html">Rəng kataloqu</a>
+                        </li>
+                        <li class="cool dropdown lang">
+                            <label for="dd1" class="hypertext">
+                                Az
+                                <span class="ml-2">
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </label>
+                            <input type="checkbox" hidden id="dd1">
+                            <ul class="dd">
+                                <li>
+                                    <a class="hypertext"
+                                        href="https://corella.az/index.php?action_skin_change=yes&skin_name=RU">RU</a>
+                                </li>
+                                <li>
+                                    <a class="hypertext"
+                                        href="https://corella.az/index.php?action_skin_change=yes&skin_name=EN">EN</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row box">
+                <div class="col-md-3 col-sm-3 col-12 note">
+                    <h3>Kategoriya</h3>
+                    <ul class="front">
+                        <li>
+                            <a href="https://corella.az/emulsiyalar.html">Emulsiyalar</a>
+                        </li>
+                        <li>
+                            <a href="https://corella.az/sintetik-boyalar.html">Sintetik boyalar</a>
+                        </li>
+                        <li>
+                            <a href="https://corella.az/senaye-boyalari.html">Sənaye boyaları</a>
+                        </li>
+                        <li>
+                            <a href="https://corella.az/laklar-ve-dolgular.html">Laklar və dolğular</a>
+                        </li>
+                        <li>
+                            <a href="https://corella.az/yapisqanlar.html">Yapışqanlar</a>
+                        </li>
+                        <li>
+                            <a href="https://corella.az/tinerler.html">Tinerlər</a>
+                        </li>
+                    </ul>
+                    <ul class="front">
+                        <li style="color: red;">NIYƏ BIZ?</li>
+                        <li>
+                            <a class="fake" href="https://corella.az/mehsullar.html">
+                                <i class="fas fa-dot-circle"></i>
+                                <span>Sərfəli qiymət</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fake" href="https://corella.az/mehsullar.html">
+                                <i class="fas fa-dot-circle"></i>
+                                <span>Keyfiyyətli məhsul</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fake" href="https://corella.az/mehsullar.html">
+                                <i class="fas fa-dot-circle"></i>
+                                <span>Vizyonumuz lider şirkət mövqesinə çatmaqdır</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fake" href="https://corella.az/mehsullar.html">
+                                <i class="fas fa-dot-circle"></i>
+                                <span>Yanaşmamız müştəriyə yönümlüdür</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fake" href="https://corella.az/mehsullar.html">
+                                <i class="fas fa-dot-circle"></i>
+                                <span>Ekoloji cəhətdən sağlam məhsullar təklif edirik</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="front">
+                        <li>ƏLAQƏ</li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            *5111
+                        </li>
+                        <li>
+                            <i class="far fa-envelope-open"></i>
+                            marketing@nbgroup.az
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-9 col-sm-9 col-12 photo">
+                    <h2>Məhsullarımız</h2>
+                    <div class="row back">
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic1.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic2.png" alt="">
+                                <div class="content">
+                                    <h3>MEBEL YAPIŞQANI</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/44-mebel-yapisqani.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic3.png" alt="">
+                                <div class="content">
+                                    <h3>SUPER MAT</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/23-super-mat.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card red">
+                                <img src="./pic4.png" alt="">
+                                <div class="content free">
+                                    <h3>RULOTEKS</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/8-rulotex.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card black">
+                                <img src="./pic5.png" alt="">
+                                <div class="content true">
+                                    <h3>PLASTİK</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/14-plastik.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card black">
+                                <img src="./pic6.png" alt="">
+                                <div class="content true">
+                                    <h3>YARIMAT İNTERYER</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/10-yarimat-interyer.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic7.png" alt="">
+                                <div class="content">
+                                    <h3>RAPİD ASTAR</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/33-rapid-astar.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="https://corella.az/uploads/posts/2020-09/1600289078_silinter171.png" alt="">
+                                <div class="content">
+                                    <h3>SİLİKONLU İNTERYER</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/11-silikonlu-interyer.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="https://corella.az/uploads/posts/2020-09/1600792052_aluminium365.png" alt="">
+                                <div class="content">
+                                    <h3>ALÜMİNİUM BOYA</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/24-aluminium-boya.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card black">
+                                <img src="https://corella.az/uploads/posts/2020-09/1600792825_taxqoruyucu368.png" alt="">
+                                <div class="content true">
+                                    <h3>TAXTA QORUYUCU LAK</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/38-taxta-qoruyucu-lak.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card red">
+                                <img src="./pic11.png" alt="">
+                                <div class="content free">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic12.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic13.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic14.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card red">
+                                <img src="./pic15.png" alt="">
+                                <div class="content free">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic16.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic17.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic18.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic19.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic20.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card red">
+                                <img src="./pic7.png" alt="">
+                                <div class="content free">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic24.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic23.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic22.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic21.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic14.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic20.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic4.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic15.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic17.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic3.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic5.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic11.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic25.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic26.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic7.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic8.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic27.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic28.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic9.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic1.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic10.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic6.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic18.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic19.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic1.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic4.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 block">
+                            <div class="card">
+                                <img src="./pic3.png" alt="">
+                                <div class="content">
+                                    <h3>TRAVERTİN</h3>
+                                    <p>Daha ətraflı
+                                        <a href="https://corella.az/344-travertin.html">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
