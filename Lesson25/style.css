@@ -1,0 +1,334 @@
+header .title {
+  background-color: #1F94B7;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+header .title h1 {
+  color: white;
+  font-size: 50px;
+}
+header .title span {
+  margin-right: 10px;
+  font-size: 17px;
+  color: white;
+}
+header .title::after {
+  content: "";
+  position: absolute;
+  background-color: #1f94b7;
+  transform: rotate(225deg);
+  top: 132px;
+  border-top-color: #1f94b7;
+  border-left-color: #1f94b7;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 52px;
+  height: 52px;
+}
+
+body {
+  height: 5000px;
+}
+
+.ticketRezervation .ticketInfo {
+  margin: 2rem 0;
+}
+.ticketRezervation .ticketInfo .ticketLogo {
+  margin-bottom: 1rem;
+}
+.ticketRezervation .ticketInfo .ticket {
+  border: 1px solid #1f94b7;
+  border-radius: 5px;
+  padding: 1rem;
+  position: relative;
+}
+.ticketRezervation .ticketInfo .ticket .openElement svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 20px;
+}
+.ticketRezervation .ticketInfo .ticket .luggage img {
+  width: 20px;
+}
+.ticketRezervation .ticketInfo .ticket .city {
+  padding: 0 2rem;
+  text-align: center;
+}
+.ticketRezervation .ticketInfo .ticket .city p {
+  font-size: 13px;
+  color: gray;
+}
+.ticketRezervation .ticketInfo .ticket .hourDetails {
+  margin-top: 1rem;
+}
+.ticketRezervation .ticketInfo .ticket .hourDetails .hour {
+  position: relative;
+  bottom: 10px;
+  font-size: 13px;
+  color: #1f94b7;
+  margin: 0 5px;
+  letter-spacing: 1px;
+}
+.ticketRezervation .ticketInfo .ticket .hourDetails .hour .direct {
+  position: absolute;
+  font-size: 14px;
+  top: 25px;
+  left: 14px;
+  color: #aded5a;
+}
+.ticketRezervation .ticketInfo .ticket .hourDetails .hour::after {
+  content: "";
+  border-bottom: 1px solid #1f94b7;
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  left: 0;
+}
+.ticketRezervation .ticketInfo .ticket::before {
+  content: "";
+  position: absolute;
+  right: 150px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+  background-color: white;
+  transform: rotate(225deg);
+  top: -8px;
+  border-top-color: #1f94b7;
+  border-left-color: #1f94b7;
+}
+.ticketRezervation .ticketInfo .ticket::after {
+  content: "";
+  position: absolute;
+  right: 150px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+  background-color: white;
+  transform: rotate(46deg);
+  bottom: -8px;
+  border-top-color: #1f94b7;
+  border-left-color: #1f94b7;
+}
+.ticketRezervation .ticketInfo .collapseBody .card-body {
+  background-color: rgb(239, 242, 250);
+  padding: 2rem;
+}
+.ticketRezervation .ticketInfo .collapseBody .card-body .flight_time {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.ticketRezervation .ticketInfo .collapseBody .card-body .flight_time .vl_line {
+  width: 2px;
+  height: 42px;
+  background-color: #aeaeae;
+  margin: 0 2rem;
+  position: relative;
+}
+.ticketRezervation .ticketInfo .collapseBody .card-body .flight_time .vl_line::before {
+  content: "";
+  border: 1px solid gray;
+  border-radius: 100%;
+  width: 3px;
+  height: 3px;
+  padding: 3px;
+  position: absolute;
+  top: -8px;
+  left: -3px;
+}
+.ticketRezervation .ticketInfo .collapseBody .card-body .flight_time .vl_line::after {
+  content: "";
+  border: 1px solid gray;
+  border-radius: 100%;
+  width: 3px;
+  height: 3px;
+  padding: 3px;
+  position: absolute;
+  bottom: -8px;
+  left: -3px;
+}
+.ticketRezervation .ticketInfo .collapseBody .card-body .flight_time .flight_address p {
+  word-spacing: 10px;
+  margin-bottom: 0;
+}
+.ticketRezervation .ticketInfo .collapseBody .card-body .airportInfo {
+  background-color: white;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  color: red;
+  margin-bottom: 2rem;
+}
+.ticketRezervation .ticketInfo .collapseBody .card-body .arrive_date {
+  margin-top: 2rem;
+  word-spacing: 5px;
+}
+.ticketRezervation .ticketInfo .collapseBody .card-body .arrive_date .line {
+  margin: 0 1rem;
+}
+.ticketRezervation .ticketInfo .collapseBody .card-body .arrive_date span {
+  font-weight: bold;
+}
+.ticketRezervation .ticketTime {
+  background-color: rgb(239, 242, 250);
+  margin: 2rem 0;
+}
+.ticketRezervation .ticketTime .Front {
+  position: relative;
+}
+.ticketRezervation .ticketTime .Front h5 {
+  color: #F3BD51;
+  padding: 1rem 36px 0;
+}
+.ticketRezervation .ticketTime .Front svg {
+  position: absolute;
+  left: 10px;
+  bottom: 2px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body {
+  background-color: rgb(239, 242, 250);
+  border: none;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body span {
+  margin-bottom: 1rem;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .flight_time {
+  display: flex;
+  position: relative;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .flight_time .vl_line {
+  width: 2px;
+  height: 58px !important;
+  margin-top: 15px !important;
+  background-color: #aeaeae;
+  position: relative;
+  display: inline-block;
+  margin-right: 13px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .flight_time .vl_line::before {
+  content: "";
+  border: 1px solid gray;
+  border-radius: 100%;
+  width: 3px;
+  height: 3px;
+  padding: 3px;
+  position: absolute;
+  top: -8px;
+  left: -3px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .flight_time .vl_line::after {
+  content: "";
+  border: 1px solid gray;
+  border-radius: 100%;
+  width: 3px;
+  height: 3px;
+  padding: 3px;
+  position: absolute;
+  bottom: -8px;
+  left: -3px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .flight_time .flight_address {
+  display: inline-block;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .airportInfo {
+  background-color: white;
+  margin-top: 1rem;
+  padding: 5px 10px;
+  color: red;
+  margin-bottom: 1rem;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body hr {
+  margin-top: 1px;
+  margin-bottom: 5px;
+  border: 0;
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Toyota {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Toyota .back {
+  flex-wrap: nowrap;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Toyota .back .blue svg {
+  position: absolute;
+  bottom: 7px;
+  left: 18px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Toyota .back .blue h6 {
+  color: #F3BD51;
+  margin-left: 24px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Toyota .back .collor {
+  color: #2fcfff;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .collapseBody3 .card-body {
+  padding: 0;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .collapseBody3 .card-body .Fanta {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .collapseBody3 .card-body .Fanta .back {
+  flex-wrap: nowrap;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .collapseBody3 .card-body .Fanta .back .blue svg {
+  position: absolute;
+  bottom: 8px;
+  left: 18px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .collapseBody3 .card-body .Fanta .back .blue h6 {
+  color: #F3BD51;
+  margin-left: 24px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .collapseBody3 .card-body .Fanta .back .collor {
+  color: #2fcfff;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .collapseBody3 .card-body .card-body .wrap .usb {
+  color: #2fcfff;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .collapseBody3 .card-body .card-body .wrap .usb h4 {
+  color: #2fcfff;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .collapseBody3 .card-body .wrap {
+  flex-wrap: nowrap;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Travel {
+  position: relative;
+  display: flex;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Travel h6 {
+  color: #F3BD51;
+  margin-left: 23px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Travel svg {
+  position: absolute;
+  bottom: 6px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Azal {
+  position: relative;
+  display: flex;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Azal span {
+  margin-left: 23px;
+}
+.ticketRezervation .ticketTime .collapseBody2 .card-body .Azal svg {
+  position: absolute;
+  bottom: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ticket {
+    text-align: center;
+  }
+  .arrive_date .line {
+    display: block;
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=style.css.map */
