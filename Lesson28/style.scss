@@ -1,0 +1,17 @@
+header{
+    margin-bottom: 3rem;
+    #myDIV{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        div{
+            background-color: red;
+            margin-bottom: 1rem;
+        }
+    }
+}
+section{
+    .center{
+        text-align: center;
+    }
+}

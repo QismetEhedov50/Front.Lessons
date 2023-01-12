@@ -1,0 +1,16 @@
+header {
+  margin-bottom: 3rem;
+}
+header #myDIV {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header #myDIV div {
+  background-color: red;
+  margin-bottom: 1rem;
+}
+
+section .center {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
