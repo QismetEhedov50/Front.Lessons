@@ -1,0 +1,19 @@
+header {
+  margin-bottom: 3rem;
+}
+header #myDIV {
+  display: flex;
+  justify-content: space-between;
+}
+header #myDIV div {
+  background-color: yellow;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  font-size: 2rem;
+  color: blue;
+  text-align: center;
+}
+
+section .center {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
