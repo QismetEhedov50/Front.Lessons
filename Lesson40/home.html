@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+         li{
+        position: relative;
+    }
+    li::after{
+        content: "\f00d";
+        font-family: FontAwesome;
+        position: absolute;
+        color: black;
+        top:13%;
+        right:1%;
+        font-size: 1.5rem;
+
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align:center; margin-top: 3rem;   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;">Zəhmət olmasa
+            seçiminizi edin</h1>
+    </header>
+    <section class="One" style="margin-top: 3rem; margin-bottom: 4rem;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 col-md-6 black">
+                    <div class="card" style="border: 1px solid; padding: 10px; background-color: #00a9fa;">
+                        <img src="./Image/sekil1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <button id="1" onclick="Click(this)" type="button" class="btn btn-outline-secondary">Hədiyyəni
+                                açın</button>
+                            <p class="d-none" style="color: red;">Bəxtinizi bir daha sınayın</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6 black green">
+                    <div class="card" style="border: 1px solid; padding: 10px; background-color: #00fa31;">
+                        <img src="./Image/sekil2.jpg" class="card-img-top" alt="..."
+                            style="height: 266px; object-fit: cover;">
+                        <div class="card-body">
+                            <button id="2" onclick="Click(this)" type="button" class="btn btn-outline-warning">Hədiyyəni
+                                açın</button>
+                            <p class="d-none" style="color: green;">Ev qazandınız</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6 black">
+                    <div class="card" style="border: 1px solid; padding: 10px; background-color: #faea00;">
+                        <img src="./Image/black1.webp" class="card-img-top" alt="..."
+                            style="height: 266px; object-fit: cover">
+                        <div class="card-body">
+                            <button id="3" onclick="Click(this)" type="button" class="btn btn-outline-info">Hədiyyəni
+                                açın</button>
+                            <p class="d-none" style="color: purple;">Telefon qazandınız</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6 black">
+                    <div class="card" style="border: 1px solid; padding: 10px; background-color: #8b00ff;">
+                        <img src="./Image/sekil4.jpg" class="card-img-top" alt="..."
+                            style="height: 266px; object-fit: cover;">
+                        <div class="card-body">
+                            <button id="4" onclick="Click(this)" type="button" class="btn btn-outline-danger">Hədiyyəni
+                                açın</button>
+                            <p class="d-none" style="color: brown;">Maşın qazandınız</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="Two" style="text-align: center;">
+        <div class="container">
+            <div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">To Do List</label>
+                  <input id="Text" type="text" class="form-control">
+                </div>
+                <button id="Button" onclick="ToDoList()" class="btn btn-primary btn-block">Add</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
