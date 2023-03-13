@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row text">
+                <div class="col-lg-12 col-sm-12 col-md-12  first">
+                    <h1>
+                        <img src="https://static.president.az/assets/svg/gerb-721e7548761107d59f6c0daa8d942f65b82dfa61030d0fe4b237f5b9bb436d18.svg"
+                            alt="Gerb photo">
+                        Azərbaycan Respublikasının Prezidenti<br> İlham Əliyev
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div id="form" class="form">
+                <div class="col-lg-12">
+                    <h3>Hörmətli istifadəçi!</h3>
+                </div>
+                <div class="col-lg-12">
+                    <p>Azərbaycan Respublikası Prezidenti cənab İlham Əliyevə və Prezident Administrasiyasına məktub
+                        göndərmək ücün aşağıdakı formanı doldurun. Diqqətli olmağınız Sizdən xahiş olunur!</p>
+                </div>
+                <div class="col-lg-12">
+                    <p>( <span class="red">*</span> - vacib sahələr) </p>
+                </div>
+                <br>
+                <div class="row formBig">
+                    <div class="col-lg-4 name">
+                        <label for="">Adınız<span class="red">*</span></label>
+                        <input name="Ad" type="text">
+                        <div class="eror-msg"></div>
+                    </div>
+                    <div class="col-lg-4 surname">
+                        <label for="">Soyadınız<span class="red">*</span></label>
+                        <input name="Soyad" type="text">
+                        <div class="eror-msg"></div>
+                    </div>
+                    <div class="col-lg-4 dad">
+                        <label for="">Atanızın adı<span class="red">*</span></label>
+                        <input name="Ata adi" type="text">
+                        <div class="eror-msg"></div>
+                    </div>
+                </div>
+                <div class="row formTwo">
+                    <div class="col-lg-6 country">
+                        <label class="region" for="">Ölkə<span class="red">*</span></label>
+                        <input name="Olke" type="hidden">
+                        <input class="fon" type="checkbox" name="" id="">
+                        <label class="front" for="">Azərbaycan</label>
+                        <br>
+                        <input class="home" type="text" name="data_country_text" id="appeal_country_text" value
+                            autocomplete="off" style>
+                        <div class="eror-msg"></div>
+                    </div>
+                    <div class="regionTwo" id="region_td" style="display: none;">
+                        <label class="required" for="appeal_region">Şəhər<span class="red">*</span></label>
+                        <select id="appeal_region" name="data_region_id" target_id="city" class="disabled"
+                            style="display: none;" disabled>
+                            <option value style="color: red;">-- Siyahıdan seçin --</option>
+                            <option value="1">Bakı şəhəri</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-6 city">
+                        <label for="">Şəhər<span class="red">*</span></label>
+                        <input name="Seher" type="text">
+                        <div class="eror-msg"></div>
+                    </div>
+                </div>
+                <div class="row formThree">
+                    <div class="col-lg-12 poct">
+                        <label for="">Ünvan<span class="red">*</span></label>
+                        <input name="Unvan" type="text">
+                        <div class="eror-msg"></div>
+                    </div>
+                </div>
+                <div class="row formFour">
+                    <div class="col-lg-6 phone">
+                        <label for="">Telefon<span class="red">*</span></label>
+                        <input name="Telefon" type="text">
+                        <div class="eror-msg"></div>
+                    </div>
+                    <div class="col-lg-6 mail">
+                        <label for="">e-Mail<span class="red">*</span></label>
+                        <input name="Mail" type="text">
+                        <div class="eror-msg"></div>
+                    </div>
+                </div>
+                <div class="row formFive">
+                    <div class="col-lg-2 age">
+                        <label for="">Yaşınız<span class="red">*</span></label>
+                        <input name="Yas" type="text">
+                        <div class="eror-msg"></div>
+                    </div>
+                    <div class="col-lg-4 gender">
+                        <label for="">Cinsiniz<span class="red">*</span></label>
+                        <div class="gendertwo">
+                            <input type="radio" id="kişi" name="gender" value="Kişi">
+                            <label for="kişi">Kişi</label>
+                            <input type="radio" id="qadın" name="gender" value="Qadın">
+                            <label for="qadın">Qadın</label>
+                        </div>
+                        <div class="eror-msg"></div>
+                    </div>
+                    <div class="col-lg-6 social">
+                        <label for="">Sosial durum<span class="red">*</span></label>
+                        <select name="social" id="social">
+                            <option value style="color: red;">-- Siyahıdan seçin --</option>
+                            <option value="1">dövlət qulluqçusu</option>
+                            <option value="2">qulluqçu</option>
+                            <option value="3">elmi işçi</option>
+                            <option value="4">təhsil işçisi</option>
+                            <option value="5">səhiyyə işçisi</option>
+                            <option value="6">mədəniyyət işçisi (yaradıçı şəxs)</option>
+                            <option value="7">din xadimi</option>slot
+                            <option value="8">sahibkar</option>
+                            <option value="9">özəl sektorun işçisi</option>
+                            <option value="10">hərbçi</option>
+                            <option value="11">ehtiyyatda olan hərbçi</option>
+                            <option value="12">tələbə (şagird)</option>
+                            <option value="13">kəndli (fermer)</option>
+                            <option value="14">təqaüdçü</option>
+                            <option value="15">evdar qadın</option>
+                            <option value="16">fəhlə</option>
+                            <option value="17">işsiz</option>
+                        </select>
+                        <div class="eror-msg"></div>
+                    </div>
+                </div>
+                <div class=" formSix">
+                    <label style="margin-bottom: 1rem;" for="">Müraciətin növü<span class="red">*</span></label>
+                    <div class=" type">
+                        <input type="radio" id="təklif" name="type" value="Təklif">
+                        <label for="təklif">Təklif</label>
+                        <input type="radio" id="ərizə" name="type" value="Ərizə">
+                        <label for="ərizə">Ərizə</label>
+                        <input type="radio" id="şikayət" name="type" value="Şikayət">
+                        <label for="şikayət">Şikayət</label>
+                    </div>
+                    <div class="eror-msg"></div>
+                </div>
+                <div class=" formSeven">
+                    <label for="">Müraciətin mövzusu<span class="red">*</span></label>
+                </div>
+                <div class="formEight">
+                    <label for="">Əsas mövzu</label>
+                    <select id="subjects" name="subjects">
+                        <option value style="color: red;">-- Siyahıdan seçin --</option>
+                        <option value="1">Qəbul məsələləri</option>
+                        <option value="2">Təltif, təqaüd və fəxri adlar məsələləri</option>
+                        <option value="3">Vətəndaşlıq və miqrasiya məsələləri</option>
+                        <option value="4">Amnistiya və əfv məsələləri</option>
+                        <option value="5">İctimai-siyasi məsələlər</option>
+                        <option value="6">Dövlət qulluğu və kadr məsələləri</option>
+                        <option value="7">İcra hakimiyyəti orqanlarının və bələdiyyələrin fəaliyyəti</option>
+                        <option value="8">Xarici siyasət məsələləri</option>
+                        <option value="9">Məhkəmə və ədliyyə orqanlarının fəaliyyəti</option>
+                        <option value="10">Hüquq mühafizə orqanlarının fəaliyyəti</option>
+                        <option value="11">İqtisadi məsələlər</option>
+                        <option value="12">Özəlləşdirmə məsələləri</option>
+                        <option value="13">Kənd təsərrüfatı məsələləri</option>
+                        <option value="14">Torpaq məsələləri</option>
+                        <option value="15">Elm və təhsil məsələləri</option>
+                        <option value="16">Səhiyyə məsələləri</option>
+                        <option value="17">Mədəniyyət və turizm məsələləri</option>
+                        <option value="18">Gənclər və idman məsələləri</option>
+                        <option value="19">Rabitə və informasiya texnologiyaları məsələləri</option>
+                        <option value="20">Nəqliyyat məsələləri</option>
+                        <option value="21">Ekologiya və təbii sərvətlər</option>
+                        <option value="22">Müdafiə və hərbi xidmət məsələləri</option>
+                        <option value="23">Sosial müdafiə məsələləri</option>
+                        <option value="24">Mənzil məsələləri</option>
+                        <option value="25">Enerji, istilik və su təchizatı məsələləri</option>
+                        <option value="26">Tikinti məsələləri</option>
+                        <option value="27">Qaçqınlarla və məcburi köçkünlərlə bağlı məsələlər</option>
+                        <option value="28">Təbii, texnogen hadisələr və fövqəladə hallar</option>
+                        <option value="29">Məişət məsələləri</option>
+                        <option value="30">Minnətdarlıq</option>
+                        <option value="31">Təbrik</option>
+                    </select>
+                    <div class="eror-msg"></div>
+                </div>
+                <div class="formNine">
+                    <label class="front" for="">Müraciət — </label>
+                    <span class="fake"><dfn id="counter">500</dfn> işarə qalıb</span>
+                    <textarea cols="60" rows="15" maxlength="500" class="required error" name="data_body"
+                        id="appeal_body" autocomplete="off" aria-invalid="true"></textarea>
+                    <div class="eror-msg"></div>
+                </div>
+                <!-- <div class="formTen">
+                    <div class="submit">
+                        <input type="submit" value="Təsdiq edin" class="submit">
+                    </div>
+                </div> -->
+                <div class="formTen">
+                    <div class="from-check" style="margin-bottom: 1rem;">
+                        <input class="checkbox" type="checkbox" name="" id="gridCheck" style="width: 13px;">
+                        <label class="front" for="">Qəbul edirəm</label>
+                    </div>
+                    <div class="eror-msg"></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Göndərin</button>
+            </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
