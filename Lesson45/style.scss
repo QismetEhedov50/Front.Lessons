@@ -1,0 +1,45 @@
+header {
+    text-align: center;
+    padding-top: 3rem;
+
+    h1 {
+        text-shadow: 3px 2px #47363e;
+        color: goldenrod;
+
+    }
+}
+
+section {
+    padding-top: 5rem;
+
+    .custom-select {
+        height: 52px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    section {
+        .custom-select {
+            width: 405px;
+            margin-bottom: 1rem;
+        }
+
+        .table {
+            width: 405px;
+        }
+    }
+}
+
+@media (min-width:600px) and (max-width:1140px) {
+    section {
+        .custom-select {
+            margin-bottom: 1rem;
+        }
+    }
+}
